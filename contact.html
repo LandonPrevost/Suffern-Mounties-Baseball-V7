@@ -59,13 +59,12 @@
             </div>
         </div>
 <div class="contact-col">
-    <form action="form-handler.php" method="post">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your email address" required>
-        <input type="text" name="subject" placeholder="Subject" required>
-        <textarea rows="8" name="question" placeholder="Your Question" required></textarea>
-        <button type="submit" class="hero-btn blue-btn">Send</button>
-    </form>
+    <form action="http://formspree.io/you@email.com" method="post">
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
 </div>
     </div>
 </section>
