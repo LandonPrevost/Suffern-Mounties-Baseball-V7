@@ -11,13 +11,23 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    z-index: 101;
 }
-
+.sub-header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/IMG_7635.JPG);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
 nav {
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
+    background: fixed;
 }
 
 nav img {
@@ -100,7 +110,6 @@ nav img {
 nav .fa {
     display: none;
 }
-
 @media (max-width: 991px) {
     .text-box h1 {
         font-size: 20px;
@@ -360,15 +369,6 @@ nav .fa {
 
 /*-------Sponsors-------*/
 
-.sub-header {
-    height: 50vh;
-    width: 100%;
-    background-image: url(images/IMG_7635.JPG);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
-}
 
 .sub-header h1 {
     margin-top: 100px;
@@ -516,7 +516,7 @@ nav .fa {
     padding: 15px 0;
     background-color: #010144;
     box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.5);
-    z-index: 1;
+    z-index: 100; /* Set a higher z-index value */
     text-align: left;
     border-radius: 2px;
     transform-origin: top;
@@ -544,6 +544,71 @@ nav .fa {
     background-size: 100% 1px;
 }
 .header .nav-links .sub-menu-right{
-    left: 100%;
+    left: auto;
     top: 0;
 }
+.sub-header,
+.Media {
+    overflow: visible;
+}
+.sub-header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/IMG_7635.JPG);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    overflow: visible; /* Allow overflow */
+}
+
+.Media {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    overflow: visible; /* Allow overflow */
+}
+.btn{
+    border-radius: 40px;
+    border : 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    padding: 2rem 3rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+ }
+ .btn--primary{
+    background: #010144;
+    color: #fff;
+ }
+ .btn--primary:hover{
+    background: #160255;
+ }
+ .btn--secondary{
+    background: #010144;
+    color: white;
+ }
+ .btn--secondary:hover{
+    background: #160255;
+ }
+ .btn--outline{
+    background: #fff;
+    color: #000;
+    border: 2px solid #000;
+ }
+ .btn--outline:hover{
+    background: #000;
+    color: #fff;
+ }
+ .btn--block{
+    width: 100%;
+    display: inline-block;
+ }
+ @media screen and (min-width:1024px) {
+        .btn{
+           font-size: 1.5rem;
+        }
+ }
