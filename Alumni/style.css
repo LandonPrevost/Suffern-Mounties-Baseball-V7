@@ -552,7 +552,7 @@ nav .fa {
     overflow: visible;
 }
 .sub-header {
-    height: 100vh;
+    height: 50vh;
     width: 100%;
     background-image: url(images/IMG_7635.JPG);
     background-position: center;
@@ -612,3 +612,4 @@ nav .fa {
            font-size: 1.5rem;
         }
  }
+ 
