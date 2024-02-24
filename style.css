@@ -296,6 +296,13 @@ nav .fa {
     margin-top: 8px;
     margin-bottom: 15px;
 }
+.center-div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
 
 /*-----contact-----*/
 
