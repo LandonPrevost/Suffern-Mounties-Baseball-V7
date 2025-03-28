@@ -68,25 +68,25 @@ nav img {
 
 .google-doc-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Centers horizontally */
     width: 100%;
     padding: 20px 0;
 }
 
 .google-doc-container iframe {
-    width: 80%; /* Default width */
-    height: 1000px;
+    width: 80%;
+    height: 80vh; /* Adjust height dynamically */
     border: none;
 }
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
     .google-doc-container iframe {
-        width: 95%; /* Make it almost full width */
-        height: 600px; /* Adjust height for better viewing */
+        width: 95%;
+        height: 60vh; /* Adjust height for better mobile view */
     }
 }
+
 
 .text-box {
     width: 90%;
