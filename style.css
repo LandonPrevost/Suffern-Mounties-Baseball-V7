@@ -77,7 +77,7 @@ nav img {
 .google-doc-container iframe {
     width: 80%; /* Adjust width as needed */
     max-width: 900px; /* Prevents it from becoming too wide */
-    height: 80vh; /* Adjust height dynamically */
+    height: 95vh; /* Adjust height dynamically */
     border: none;
 }
 
