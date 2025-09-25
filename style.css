@@ -7,9 +7,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/unnamed.png);
-    background-position: center;
-    background-size: cover;
+    background-color: #0b3d91; /* dark blue */
     position: relative;
     z-index: 101;
 }
@@ -648,3 +646,4 @@ nav .fa {
         }
  }
  
+
